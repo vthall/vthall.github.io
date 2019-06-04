@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/********************/
+
+.active {
+	background-color: darkred;
+}
+
+.container {
+	position: relative;
+}
+
+.bottomleft {
+
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	font-size: 24px;	
+}
+
+.bottomleft a {
+
+	text-decoration: none;	
+}
+
+.main {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 5%;  
+}
+
+.main p {
+  color: black;
+}
+
+.title {
+
+
+}
+.subtitle {
+
+    font-size: 36px;
+}
+
+
+body {
+	background-color: beige;
+	height: 2000px;
+	width: 100%;
+    
+}
+
+header {
+
+	border-bottom: 3px;
+	border-bottom-color: beige;
+	width: 100%;
+	height: 100px;
+}
+
+section {
+
+    position: relative;
+}
+
+img {
+
+	height: auto;
+	/* display: block; */
+	/* border-radius: 90%; */
+	width: 100%;
+	margin: 0 auto;
+	opacity: 0.6;
+
+}
+
+h1 {
+	color: darkred;
+	font-size: 36px;
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+h4 {
+
+    color: white;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+ul {
+	background-color: indianred;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+
+
+}
+
+li {
+	float: left;
+	border-right: 2px solid;
+	border-right-color: beige;
+	border-bottom: 3px;
+	border-bottom-color: beige;
+}
+
+li a:hover {
+	background-color: darkred;
+}
+
+li a {
+
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+footer {
+	background-color: indianred;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+    font-size: 0.75em;
+
+}
+
+p {
+
+    color: white;
+    font-size: 24;
+
+}
